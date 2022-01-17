@@ -1,0 +1,41 @@
+/* Global stil ayarları */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(95, 82, 82);
+    background-color: rgb(255, 255, 255)
+}
+
+#main-header {
+    color: white;
+    padding: 1.75rem 4.5%;
+    text-align: center;
+    background: rgb(238, 238, 238);
+    background: linear-gradient(90deg, rgba(238, 238, 238, 1) 0%, rgba(94, 118, 252, 1) 50%, rgba(238, 238, 238, 1) 100%);
+}
+
+.btn {
+    font: inherit;
+    padding: 0.45rem 1.35rem;
+    background-color: rgb(52, 175, 212);
+    border: 1px solid rgb(52, 175, 212);
+    color: white;
+    border-radius: 3.5px;
+    cursor: pointer;
+}
+
+.btn-another {
+    background-color: transparent;
+    border-color: transparent;
+    color: rgb(52, 175, 212);
+}
+
+.btn:hover {
+    background-color: rgb(10, 88, 112);
+    border-color: rgb(10, 88, 112);
+}
+
+.btn-another:hover {
+    background-color: rgb(166, 205, 218);
+    border-color: transparent;
+}

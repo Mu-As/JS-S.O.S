@@ -1,0 +1,78 @@
+/* Oyuncu düzenleme sayfasındaki stil ayarları */
+#config-overlay {
+    text-align: center;
+}
+
+#config-overlay h2 {
+    margin: 0.5rem
+}
+
+.form-control {
+    margin: 0.5rem 0;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 0.45rem;
+    font-weight: bold;
+}
+
+.form-control input {
+    font: inherit;
+    border: 1px solid rgb(204, 204, 205);
+    width: 13.5rem;
+    padding: 0.3rem
+}
+
+.error label {
+    color: rgb(175, 36, 36);
+}
+
+.error input {
+    border-color: rgb(175, 36, 36);
+    color: rgb(175, 36, 36);
+    background-color: rgb(247, 190, 190)
+}
+
+#config {
+    width: 90%;
+    max-width: 40rem;
+    margin: 2.5rem auto;
+    text-align: center;
+
+}
+
+#config ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex
+}
+
+#config li {
+    margin: 2.5rem;
+    padding: 1rem;
+    width: 50%;
+    background-color: rgb(222, 234, 251);
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
+
+}
+
+#config h2 {
+    font-size: 1rem;
+    margin: 0.45rem 0
+}
+
+#config h3 {
+    font-size: 1.4rem;
+    margin: 0.5rem 0;
+    color: rgb(86, 86, 131)
+}
+
+.mark {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: rgb(94, 86, 86);
+    margin: 0.35rem 0
+}
